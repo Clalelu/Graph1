@@ -41,7 +41,7 @@
     },
     "graphProperties": {
       "maxEdgeSize": 10,
-      "minEdgeSize": 0.5,
+      "minEdgeSize": 0.1,
       "minNodeSize": 0.5,
       "maxNodeSize": 5
     },
