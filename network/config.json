@@ -37,7 +37,6 @@
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "regular",
       "hoverFontStyle": "regular",
-      "defaultLabelSize": 14,
 	  "labelSize": "proportional"
     },
     "graphProperties": {
