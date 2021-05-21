@@ -166,10 +166,10 @@ sigma.classes.EventDispatcher = function () {
         sigma.classes.EventDispatcher.call(this);
         var c = this;
         this.p = {
-            minNodeSize: 0,
-            maxNodeSize: 0,
-            minEdgeSize: 0,
-            maxEdgeSize: 0,
+            minNodeSize: 1,
+            maxNodeSize: 7,
+            minEdgeSize: 0.2,
+            maxEdgeSize: 0.5,
             minBGSize: 0,
             maxBGSize: 0,
             scalingMode: "inside",
@@ -683,7 +683,7 @@ sigma.classes.EventDispatcher = function () {
             labelActiveShadowColor: "#000",
             labelActiveColor: "default",
             defaultLabelActiveColor: "#000",
-            labelSize: "fixed",
+            labelSize: "proportional",
             defaultLabelSize: 12,
             labelSizeRatio: 2,
             labelThreshold: 6,
